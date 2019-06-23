@@ -1,0 +1,14 @@
+当前文件夹用来存储字体文件
+
+在CSS文件夹内引用方式为：.less后缀的样式文件内
+    （说明：SourceHanSerifsc-Heavy.otf为字体文件）
+
+    @font-face {
+        font-family: 'SourceHanSerifsc-Heavy';
+        src: url('./images/SourceHanSerifsc-Heavy.otf') format('truetype');
+    }
+
+    此处引入@font-face中的font-family的value
+    .search-text {
+        font-family: 'SourceHanSerifsc-Heavy';
+    }
